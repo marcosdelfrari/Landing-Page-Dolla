@@ -1,0 +1,235 @@
+// * {
+//   background-image: url("/assets/imgs/background.png");
+//   background-size: cover; /* Isso ajusta o tamanho da imagem para cobrir todo o elemento */
+//   background-position: center center;
+//   background-attachment: fixed;
+// }
+
+.globo {
+  position: fixed;
+  max-width: 1400px;
+  z-index: 99;
+  bottom: -7px;
+}
+
+.sections {
+  background-image: url("/assets/imgs/background.png");
+  background-size: cover; /* Isso ajusta o tamanho da imagem para cobrir todo o elemento */
+  background-position: center center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  max-width: 1400px;
+
+  @media (max-width: 768px) {
+    margin: 0 20px;
+    max-width: 90vw;
+  }
+}
+
+.bg-trans {
+  background: rgb(0 0 0 / 44%);
+  border-radius: 100%;
+  padding: 30px;
+  height: 251px;
+  width: 251px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  &::before {
+    content: "";
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(0 0 0 / 12%);
+    opacity: 0.6;
+    animation: pulse 5s infinite;
+    box-shadow: 0 0 10px rgb(0 0 0 / 12%); /* Adicione o shadow aqui */
+
+  }
+
+  @media (max-width: 768px) {
+    padding: 30px;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.left-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+span {
+  font-family: Lubalin Graph Std Demi;
+  font-size: 14px;
+  color: #fff;
+  margin: 10px 0;
+  text-align: center;
+  @media (max-width: 768px) {
+    font-size: 10px;
+  }
+}
+
+h2 {
+  font-family: "Aeonik-Black";
+  color: #6ff55c;
+  font-size: 64px;
+  line-height: 60px;
+  text-transform: uppercase;
+  text-align: center;
+
+  @media (max-width: 1080px) {
+    font-size: 55px;
+    line-height: 51px;
+    text-transform: uppercase;
+    text-align: inherit;
+  }
+}
+
+p {
+  font-family: Lubalin Graph Std Demi;
+  font-size: 19px;
+  color: #fff;
+  margin: 10px 0;
+  text-align: center;
+
+  @media (max-width: 1080px) {
+    font-size: 12px;
+    text-align: inherit;
+  }
+}
+
+h3 {
+  font-family: Lubalin Graph Std Book;
+  font-size: 19px;
+  color: #fff;
+  margin: 10px 0;
+  text-align: center;
+  z-index: 2;
+
+  @media (max-width: 1080px) {
+    font-size: 19px;
+    text-align: inherit;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+}
+
+.frase-top {
+  text-align: center;
+
+  @media (max-width: 768px) {
+    margin-bottom: 30px;
+  }
+}
+
+input[type="texto"] {
+  border: 1px solid #fff;
+  border-radius: 100px;
+  height: 44px;
+  background: none;
+  color: #fff;
+  font-family: Lubalin Graph Std Demi;
+  font-size: 19px;
+  text-transform: uppercase;
+  padding: 10px 0px 5px 20px;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+button {
+  width: 100%;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  height: 44px;
+  background: rgb(0 0 0 / 44%);
+  color: #fff;
+  font-family: Lubalin Graph Std Demi;
+  font-size: 19px;
+  text-transform: uppercase;
+  padding: 10px 10px 5px 10px;
+}
+
+.azul {
+  width: 80%;
+  border: 1px solid #1eb1fd  ;
+  border-radius: 0;
+  height: 44px;
+  background: rgb(0 0 0 / 44%);
+  color: #1eb1fd;
+  font-family: Lubalin Graph Std Demi;
+  font-size: 19px;
+  text-transform: uppercase;
+  padding: 10px 10px 5px 10px;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+
+}
+.verde{
+  width: 80%;
+  border: 1px solid #fff  ;
+  border-radius: 100px;
+  height: 44px;
+  background: rgb(0 0 0 / 44%);
+  color: #fff;
+  font-family: Lubalin Graph Std Demi;
+  font-size: 19px;
+  text-transform: uppercase;
+  padding: 10px 10px 5px 10px;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+
+}
+.porta {
+  width: 50%;
+  margin-top: -30px;
+  margin-bottom: -198px;
+  animation: floatAnimation 2s ease-in-out infinite;
+}
+.astro{
+  animation: floatAnimation 2s ease-in-out infinite;
+}
+@keyframes floatAnimation {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(
+      -10px
+    ); /* Altere esse valor para ajustar a altura da flutuação */
+  }
+}
+
+
+.footer {
+  z-index: 9999;
+  width: 100%;
+}

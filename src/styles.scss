@@ -1,1 +1,101 @@
-/* You can add global styles to this file, and also import other style files */
+/* Importar as fontes usando @font-face */
+@font-face {
+  font-family: 'Aeonik Air';
+  src: url('/assets/fonts/Aeonik-Air.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aeonik Air Italic';
+  src: url('/assets/fonts/Aeonik-AirItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aeonik-Black';
+  src: url('/assets/fonts/Aeonik-Black.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aeonik Black Italic';
+  src: url('/assets/fonts/Aeonik-BlackItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aeonik-Bold';
+  src: url('/assets/fonts/Aeonik-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aeonik Bold Italic';
+  src: url('/assets/fonts/Aeonik-BoldItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aeonik Light';
+  src: url('/assets/fonts/Aeonik-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aeonik Light Italic';
+  src: url('/assets/fonts/Aeonik-LightItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aeonik Medium';
+  src: url('/assets/fonts/Aeonik-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aeonik Medium Italic';
+  src: url('/assets/fonts/Aeonik-MediumItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aeonik Regular';
+  src: url('/assets/fonts/Aeonik-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aeonik Regular Italic';
+  src: url('/assets/fonts/Aeonik-RegularItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aeonik Thin';
+  src: url('/assets/fonts/Aeonik-Thin.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aeonik Thin Italic';
+  src: url('/assets/fonts/Aeonik-ThinItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Lubalin Graph Std Book';
+  src: url('/assets/fonts/LubalinGraphStd-Book.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Lubalin Graph Std Demi';
+  src: url('/assets/fonts/LubalinGraphStd-Demi.otf') format('opentype');
+}
+
+/* Outras regras de estilo para o seu projeto */
+* {
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+img {
+  width: 100%;
+}
+
+/* Estilos globais */
+html {
+  scroll-behavior: smooth;
+}
+

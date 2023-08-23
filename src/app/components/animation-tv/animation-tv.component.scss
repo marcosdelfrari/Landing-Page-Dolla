@@ -1,0 +1,24 @@
+.section-animation {
+  position: relative; /* Definir posição relativa no elemento pai */
+margin: 20px 0;
+}
+
+
+.tv {
+  position: relative;
+  z-index: 9;
+}
+
+.video {
+  width: 100%;
+}
+
+video {
+  width: 95%;
+  position: absolute;
+  z-index: 1;
+  left: 10px;
+  top: 2px;
+  height: 83%;
+  background: #000000e8;
+}

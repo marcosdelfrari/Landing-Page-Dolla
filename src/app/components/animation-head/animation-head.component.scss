@@ -1,0 +1,28 @@
+img {
+  width: 100%;
+  animation: floatAnimation 6s ease-in-out infinite;
+}
+
+.section-animation {
+  position: relative; /* Definir posição relativa no elemento pai */
+}
+
+.head {
+  width: 27%;
+  position: absolute;
+  top: calc(0% + 0px);
+  right: 37%;
+  animation: floatAnimation 2s ease-in-out infinite;
+
+}
+@keyframes floatAnimation {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(
+      -10px
+    ); /* Altere esse valor para ajustar a altura da flutuação */
+  }
+}

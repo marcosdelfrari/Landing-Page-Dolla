@@ -13,7 +13,7 @@ margin: 20px 0;
   width: 100%;
 }
 
-video {
+.gif-bg {
   width: 95%;
   position: absolute;
   z-index: 1;
@@ -21,4 +21,8 @@ video {
   top: 2px;
   height: 83%;
   background: #000000e8;
+}
+
+.gif {
+  margin-top: 40px;
 }

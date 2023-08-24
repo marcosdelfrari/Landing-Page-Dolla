@@ -5,6 +5,8 @@ img {
 
 .section-animation {
   position: relative; /* Definir posição relativa no elemento pai */
+  height: calc(100vh - 380px);
+  margin-top: 50px;
 }
 
 .head {

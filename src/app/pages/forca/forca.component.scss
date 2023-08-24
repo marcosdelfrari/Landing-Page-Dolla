@@ -222,6 +222,7 @@ button {
   margin-top: -30px;
   margin-bottom: -198px;
   animation: floatAnimation 2s ease-in-out infinite;
+  z-index: 9;
 }
 .astro{
   animation: floatAnimation 2s ease-in-out infinite;
@@ -242,4 +243,12 @@ button {
 .footer {
   z-index: 9999;
   width: 100%;
+}
+
+.wpp {
+  position: fixed;
+  bottom: 40px;
+  right: 15px;
+  width: 40px;
+  z-index: 99;
 }

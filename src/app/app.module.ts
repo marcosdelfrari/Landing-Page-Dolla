@@ -9,6 +9,7 @@ import { AnimationHeadComponent } from './components/animation-head/animation-he
 import { AnimationTvComponent } from './components/animation-tv/animation-tv.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CategoriasComponent } from './components/categorias/categorias.component';
+import { LetreiroComponent } from './components/letreiro/letreiro.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CategoriasComponent } from './components/categorias/categorias.componen
     AnimationHeadComponent,
     AnimationTvComponent,
     FooterComponent,
-    CategoriasComponent
+    CategoriasComponent,
+    LetreiroComponent
   ],
   imports: [
     BrowserModule,

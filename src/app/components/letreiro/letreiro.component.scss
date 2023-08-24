@@ -1,0 +1,45 @@
+
+
+.typing-text {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.blinking-cursor {
+  animation: blink 0.5s infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  from, to {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+
+span {
+  font-family: "Aeonik-Black";
+  color: #6ff55c;
+  font-size: 64px;
+  line-height: 60px;
+  text-transform: uppercase;
+  text-align: center;
+
+  @media (max-width: 1080px) {
+    font-size: 55px;
+    line-height: 51px;
+    text-transform: uppercase;
+    text-align: inherit;
+  }
+}

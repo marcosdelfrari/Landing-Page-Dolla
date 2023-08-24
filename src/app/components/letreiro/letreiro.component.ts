@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class LetreiroComponent {
   phrases: string[] = [
-    'SUA MARCA É AETHETIC?',
+    'SUA MARCA É aesthetic?',
     'QUAL A FORÇA DA SUA MARCA?',
   ];
   currentPhraseIndex = 0;

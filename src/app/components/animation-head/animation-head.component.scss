@@ -6,7 +6,10 @@ img {
 .section-animation {
   position: relative; /* Definir posição relativa no elemento pai */
   height: calc(100vh - 380px);
-  margin-top: 50px;
+
+  @media (max-width: 768px) {
+    margin-top: 50px;
+  }
 }
 
 .head {
@@ -15,7 +18,6 @@ img {
   top: calc(0% + 0px);
   right: 37%;
   animation: floatAnimation 2s ease-in-out infinite;
-
 }
 @keyframes floatAnimation {
   0%,

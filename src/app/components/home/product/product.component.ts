@@ -31,8 +31,8 @@ export class ProductComponent {
       topics: [
         'Google Ads',
         'Facebook Ads',
-        'Estratégia de PPC',
-        'Otimização de Campanhas',
+        'Estratégias',
+        'Campanhas Objetivas',
       ],
     },
     {

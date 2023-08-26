@@ -10,6 +10,13 @@ import { AnimationTvComponent } from './components/animation-tv/animation-tv.com
 import { FooterComponent } from './components/footer/footer.component';
 import { CategoriasComponent } from './components/categorias/categorias.component';
 import { LetreiroComponent } from './components/letreiro/letreiro.component';
+import { HomeComponent } from './pages/home/home.component';
+import { NavbarComponent } from './components/home/navbar/navbar.component';
+import { HeaderComponent } from './components/home/header/header.component';
+import { BannerComponent } from './components/home/banner/banner.component';
+import { ServicosComponent } from './components/home/servicos/servicos.component';
+import { ProductComponent } from './components/home/product/product.component';
+import { FooterHomeComponent } from './components/home/footer-home/footer-home.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +27,14 @@ import { LetreiroComponent } from './components/letreiro/letreiro.component';
     AnimationTvComponent,
     FooterComponent,
     CategoriasComponent,
-    LetreiroComponent
+    LetreiroComponent,
+    HomeComponent,
+    NavbarComponent,
+    HeaderComponent,
+    BannerComponent,
+    ServicosComponent,
+    ProductComponent,
+    FooterHomeComponent,
   ],
   imports: [
     BrowserModule,

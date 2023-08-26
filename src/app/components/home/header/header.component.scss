@@ -1,0 +1,80 @@
+.section-header {
+  height: calc(100vh - 90px);
+  display: flex;
+  flex-direction: column;
+}
+
+.container-header {
+  display: flex;
+  flex-direction: column;
+  gap: 25%;
+  height: 55%;
+  justify-content: flex-end;
+}
+
+h3 {
+  font-family: "Aeonik-Bold";
+  font-size: 9vw !important;
+  text-shadow: none;
+  line-height: 90%; /* 15.808px */
+}
+
+h1 {
+  font-family: "Aeonik-Black";
+  font-size: 18vw !important;
+  text-shadow: none;
+  line-height: 90%; /* 15.808px */
+}
+
+p {
+  font-family: "Aeonik Regular";
+  font-size: 16px !important;
+  text-shadow: none;
+  letter-spacing: 0.32px;
+}
+
+span {
+  font-family: "Aeonik Regular";
+  font-size: 16px !important;
+  text-shadow: none;
+  color: #fff;
+  letter-spacing: 0.32px;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  color: #5f5f5f;
+}
+
+.barra {
+  background: #8241ff;
+  border-radius: 4px;
+  width: 12px;
+  height: 75px;
+  margin-right: 20px;
+}
+
+.button {
+  background-image: url("/assets/imgs/arrowup.png");
+  background-size: 95%; /* Isso ajusta o tamanho da imagem para cobrir todo o elemento */
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 280px;
+  justify-content: center;
+}
+
+.wpp-ctt {
+  width: 189px;
+  height: 54px;
+  border-radius: 10px;
+  background: #000;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

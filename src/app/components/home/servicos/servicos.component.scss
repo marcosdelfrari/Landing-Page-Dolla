@@ -1,0 +1,48 @@
+.title-servicos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+h2 {
+  font-family: "Aeonik Light";
+  font-size: 9vw !important;
+  text-shadow: none;
+  line-height: 90%;
+}
+
+h1 {
+  font-family: "Aeonik-Bold";
+  font-size: 9vw !important;
+  text-shadow: none;
+  line-height: 90%;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px 40px 20px;
+  justify-content: center;
+}
+
+.wpp-ctt {
+  width: 189px;
+  height: 54px;
+  border-radius: 10px;
+  background: #000;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+  font-family: "Aeonik Regular";
+  font-size: 16px !important;
+  text-shadow: none;
+  color: #fff;
+  letter-spacing: 0.32px;
+}

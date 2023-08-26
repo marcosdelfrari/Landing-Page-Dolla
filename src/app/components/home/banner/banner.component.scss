@@ -1,0 +1,79 @@
+.section-banner {
+  margin-bottom: 20px;
+}
+.container-banner-fc {
+  height: 304px;
+  border-radius: 19px;
+
+  z-index: 99;
+}
+
+.title {
+  background: #8241ff;
+  border-radius: 19px 19px 0 0;
+  margin-bottom: -1px;
+}
+
+.img-topo-banner {
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.text-xadrez {
+  z-index: 99;
+  color: #fff;
+  position: relative;
+  padding: 20px;
+  margin-bottom: -145px;
+
+  p {
+    font-family: "Aeonik Regular";
+    font-size: 16px !important;
+    text-shadow: none;
+    display: flex;
+    letter-spacing: 1px;
+  }
+}
+
+img {
+  max-width: fit-content;
+  width: 100%;
+}
+
+h3 {
+  color: #fff;
+  font-family: "Aeonik-Bold";
+  font-size: 9vw !important;
+  text-shadow: none;
+  line-height: 90%;
+  font-weight: 700;
+  letter-spacing: 0.72px;
+}
+
+.title {
+  padding: 30px 20px;
+}
+
+.botao-xadrez {
+  margin-top: 30px;
+}
+
+button {
+  border-radius: 10px;
+  border: 1px solid #8241ff;
+  width: 124px;
+  height: 38px;
+  background: none;
+  color: #fff;
+}
+
+.xadrez {
+  background: #000;
+  border-radius: 0 0 19px 19px;
+
+  img {
+    border-radius: 0 0 20px 20px;
+  }
+}

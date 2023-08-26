@@ -1,0 +1,39 @@
+.container-product {
+  border-radius: 19px;
+  background: #f5f5f5;
+  padding: 40px 40px 30px 40px;
+  margin: 20px 0;
+}
+
+/* Estilize a lista removendo as bolinhas padrão */
+ul {
+  list-style-type: none;
+  padding: 20px 20px 0 20px;
+}
+
+/* Estilize os itens da lista */
+ul li {
+  margin-bottom: 10px;
+  font-family: "Aeonik Regular";
+}
+
+/* Adicione uma imagem como marcador */
+ul li:before {
+  content: "";
+  display: inline-block;
+  width: 14px; /* Largura da imagem */
+  height: 9px; /* Altura da imagem */
+  background-image: url("/assets/imgs/visto.png"); /* Substitua pelo caminho da sua imagem */
+  background-size: auto;
+  margin-right: 10px; /* Espaçamento entre a imagem e o texto */
+}
+
+.title-product {
+  color: #000;
+  font-family: "Aeonik Air";
+  font-size: 9vw !important;
+  text-shadow: none;
+  line-height: 90%;
+  font-weight: 700;
+  letter-spacing: 0.72px;
+}

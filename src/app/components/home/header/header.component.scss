@@ -40,7 +40,7 @@ h1 {
 
 p {
   font-family: "Aeonik Regular";
-  font-size: 16px !important;
+  font-size: 20px !important;
   text-shadow: none;
   letter-spacing: 0.32px;
 
@@ -67,12 +67,9 @@ span {
   background: #8241ff;
   border-radius: 4px;
   width: 12px;
-  height: 75px;
+  height: 110px;
   margin-right: 20px;
 
-  @media (min-width: 768px) {
-    height: 105px;
-  }
 }
 
 .button {

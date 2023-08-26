@@ -12,8 +12,8 @@ export class ProductComponent {
       title: 'Websites',
       topics: [
         'Design Responsivo',
-        'Otimização de Performance',
-        'SEO',
+        'Ultra rápidos',
+        'SEO orgânico',
         'Amigável ao Usuário',
       ],
     },

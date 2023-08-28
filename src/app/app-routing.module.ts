@@ -4,12 +4,13 @@ import { ForcaComponent } from './pages/forca/forca.component';
 import { HomeComponent } from './pages/home/home.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/', pathMatch: 'full' },
   { path: '', component: HomeComponent },
   { path: 'forca', component: ForcaComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
